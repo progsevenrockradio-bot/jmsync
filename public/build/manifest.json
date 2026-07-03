@@ -1,0 +1,105 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-__q_GVJ7.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/Pages/Blog/Index.vue": {
+    "file": "assets/Index-DTa1Qy6j.js",
+    "name": "Index",
+    "src": "resources/js/Pages/Blog/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/Blog/Show.vue": {
+    "file": "assets/Show-C8WMM1o7.js",
+    "name": "Show",
+    "src": "resources/js/Pages/Blog/Show.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/Contact.vue": {
+    "file": "assets/Contact-JtNq5KNN.js",
+    "name": "Contact",
+    "src": "resources/js/Pages/Contact.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/Error/404.vue": {
+    "file": "assets/404-DhGO20Tf.js",
+    "name": "404",
+    "src": "resources/js/Pages/Error/404.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/Home.vue": {
+    "file": "assets/Home-DOZM4UMe.js",
+    "name": "Home",
+    "src": "resources/js/Pages/Home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/Home-C9UzOT59.css"
+    ]
+  },
+  "resources/js/Pages/Portfolio/Index.vue": {
+    "file": "assets/Index-QIxD3FFH.js",
+    "name": "Index",
+    "src": "resources/js/Pages/Portfolio/Index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/Portfolio/Show.vue": {
+    "file": "assets/Show-B1BiEy-3.js",
+    "name": "Show",
+    "src": "resources/js/Pages/Portfolio/Show.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/Pages/Services.vue": {
+    "file": "assets/Services-BAuy1coz.js",
+    "name": "Services",
+    "src": "resources/js/Pages/Services.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BaygjDEM.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Blog/Index.vue",
+      "resources/js/Pages/Blog/Show.vue",
+      "resources/js/Pages/Contact.vue",
+      "resources/js/Pages/Error/404.vue",
+      "resources/js/Pages/Home.vue",
+      "resources/js/Pages/Portfolio/Index.vue",
+      "resources/js/Pages/Portfolio/Show.vue",
+      "resources/js/Pages/Services.vue"
+    ],
+    "css": [
+      "assets/app-7hRwpZMM.css"
+    ]
+  }
+}
