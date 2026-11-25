@@ -1,0 +1,30 @@
+/* =========================================================
+   JMSync - Main CSS Entry Point
+   Loads the original theme CSS in the correct cascade order
+   ========================================================= */
+
+/* 1. Tailwind base (only utilities, won't conflict with theme) */
+@import "tailwindcss";
+
+/* 2. Theme: Icon fonts */
+@import "./theme/fontello.css";
+@import "./theme/fontello-custom.css";
+
+/* 3. Theme: Animations */
+@import "./theme/animate.css";
+
+/* 4. Theme: Lightbox */
+@import "./theme/ilightbox.css";
+
+/* 5. Theme: Main styles (280KB - core design) */
+@import "./theme/vars-style.css";
+@import "./theme/style.css";
+
+/* 6. Theme: Responsive / adaptive */
+@import "./theme/adaptive.css";
+
+/* 7. Theme: Retina / HiDPI */
+@import "./theme/retina.css";
+
+/* 8. Custom JMSync overrides */
+@import "./jmsync-overrides.css";
